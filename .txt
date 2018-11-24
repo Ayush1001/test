@@ -1,0 +1,24 @@
+    1  clear
+    2  git log --oneline --decorate --graph
+    3  cd work
+    4  git log --oneline --decorate --graph
+    5  git tag -a v0.5 7c46844 
+    6  git tag --a v0.5 7c46844 -m "between commit"
+    7  git show v0.5
+    8  clear
+    9  git show v0.5
+   10  clear
+   11  git rm tag v0.5
+   12  git rm tag --a v0.5
+   13  git rm tag between commit
+   14  git rm tag
+   15  clear
+   16  git status
+   17  git branch
+   18  git branch him1
+   19  git branch
+   20  git checkout him1
+   21  git status
+   22  ls -l
+   23  nano history > .txt
+   24  history > .txt
